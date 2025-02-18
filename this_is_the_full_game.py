@@ -8,8 +8,8 @@ import string
 pygame.init()
 
 # Core game configuration
-GRID_SIZE = 200  # Number of cells in both width and height of the grid
-CELL_SIZE = 4  # Size of each cell in pixels - smaller values create a more detailed but smaller view
+GRID_SIZE = 50  # Number of cells in both width and height of the grid
+CELL_SIZE = 16  # Size of each cell in pixels - smaller values create a more detailed but smaller view
 SCREEN_SIZE = GRID_SIZE * CELL_SIZE  # Calculate total screen dimensions
 FPS = 10  # Controls simulation speed - higher values make the simulation run faster
 
